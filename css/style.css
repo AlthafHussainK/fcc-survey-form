@@ -2,18 +2,15 @@
 
 body, html {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  background-color: transparent;
-}
-
-body {
+  font-family: 'Open Sans', sans-serif;  
   font-size: 1.2em;
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7), url(https://wallpapercave.com/wp/Fdh76FQ.jpg));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/survey-bg.jpg) center no-repeat fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
-  background-size: cover;
 }
+
 
 header {
   margin: 2em auto;
@@ -24,7 +21,7 @@ h1 {
   margin: 0;
   padding: 0;
   font-size: 1.4em;
-  color: #000000;
+  color: #fff;
   text-align: center;
   font-weight: 600;
 }
@@ -34,7 +31,7 @@ p {
   padding: 5px;
   text-align: center;
   font-size: 14px;
-  color: #000000;
+  color: #fff;
   font-style: oblique;
 
 }
@@ -44,13 +41,13 @@ p {
   border-radius: 5px;
   margin: auto;
   width: 45%;
-  padding: 1em;
+  padding: 40px;
 }
 
 #survey-form {
   display: inline-block;
   width: 100%;
-  margin: 10px;
+  
 }
 
 .labels {
@@ -61,7 +58,7 @@ p {
   margin-left: 10px;
   margin-bottom: 5px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .input-tab {
@@ -90,7 +87,7 @@ p {
 }
 
 #dropdown {
-  width: 100%;
+  width: 102%;
   padding: 5px;
   margin: 0 0 0 10px;
   border: 1px solid #fff;
@@ -101,63 +98,30 @@ p {
 
 .radio-tab {
   font-size: 14px;
-  padding: 5px;
+  padding: 5px 5px 5px 10px;
   line-height: 1.6em;
 }
 
 .checkbox-tab {
   font-size: 14px;
-  padding: 5px;
+  padding: 5px 5px 5px 10px;
   line-height: 1.6em;
 }
 .btn {
   width: 100%;
   text-align: center;
-  margin: 20px;
+  
 }
 
-button {
-  background-color: #e67e22;
+#button {
+  background-color: #1cb36c;
   border-radius: 4px;
   color: white;
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 400;
   font-family: inherit;
+  width: 100%;
   padding: 10px 15px;
-  border: 1px solid;
-}
-
-button:hover {
-  background-color: #bf6516;
-}
-
-footer {
-  text-align: center;
-  font-size: 17px;
-  margin: 20px;
-}
-
-footer a {
-  color: #f39c12;
-  position: relative;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  color: #f1c40f;
-}
-
-footer p {
-  margin: 0;
-  font-size: 17px;
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://wallpapercave.com/wp/Fdh76FQ.jpg) center no-repeat fixed;
-  background-size: cover;
-  }
-
-  
+  border: 1px ;
+  cursor: pointer;
 }
